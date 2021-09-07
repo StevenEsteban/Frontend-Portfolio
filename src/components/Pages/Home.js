@@ -15,7 +15,7 @@ class Home extends Component {
 <h1>Steven Esteban Gonzalez</h1>
 <h3>Hi, I'm a Belgian Dev Trainee. <br/> Be my guest and make sure to checkout my work !</h3>
 </div>
-<div className=""><button class="btn1">Check my work out</button></div>
+<div className=""><Link to="/PreviousWork"><button class="btn1">Check my work out</button></Link></div>
 
 </section>
 
@@ -25,8 +25,8 @@ class Home extends Component {
 
     <header class="pt2 pb1 align--center">
         <div class="container">
-            <p>Welcome to</p>
-            <h1>Immo Predict</h1>
+            
+            <h1>About Me</h1>
         </div>
     </header>
 
@@ -53,14 +53,14 @@ class Home extends Component {
                     <p>In just a few seconds (normally) you'll be able to estimate any type of house you can think about. <br/> Everything starts with a price prediction. </p>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-3 reveal-on-scroll is-revealing">
-                    <div class="relative">
+                    <div class="relative2">
                         <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="Teepee"/>
                     </div>
                 </div>
 
                 <div class="grid-column span-half pt3 pb3 mobile-m order-5 reveal-on-scroll is-revealing">
                     <div class="relative">
-                        <img class="info-image relative z2" src="https://images.adsttc.com/media/images/5e1d/02c3/3312/fd58/9c00/06e9/large_jpg/NewHouse_SA_Photo_01.jpg?1578959519" alt="Fishing"/>
+                        <img class="info-image relative z2 image" src="https://images.adsttc.com/media/images/5e1d/02c3/3312/fd58/9c00/06e9/large_jpg/NewHouse_SA_Photo_01.jpg?1578959519" alt="Fishing"/>
 
                     </div>
                 </div>
@@ -87,39 +87,12 @@ class Home extends Component {
         <p class="h2">Liked the price prediction ?</p>
         <p>then reach us out !</p>
     </section>
-    <section class="bg--secondary-color pt3 pb3">
-        <div class="container">
-            <div class="mb2 align--center">
-                <h3 class="mb1">Contact me to get started</h3>
-                <p>I'll reply, I promise</p>
-            </div>
-
-
-            <form>
-                <div class="grid-row">
-                    <div class="grid-column span-half mt1">
-                        <label class="label" for="name">Name</label>
-                        <input class="form-control" id="name"/>
-                    </div>
-                    <div class="grid-column span-half mt1">
-                        <label class="label" for="email">Email</label>
-                        <input class="form-control" id="email" type="email"/>
-                    </div>
-                </div>
-                <label class="label mt1" for="dates">Company Name (optional)</label>
-                <input class="form-control" id="dates"/>
-                <label class="label mt1" for="message">Message</label>
-                <textarea class="form-control" id="message"></textarea>
-                <div class='submitButton'>
-                    <button class="btn btn--outline">Send</button>
-                </div>
-            </form>
-        </div>
-    </section>
+   
+ 
 
     <footer class="pt2 pb2">
         <div class="container align--center">
-            <p>Cantersteen 10, 1000 Bruxelles</p>
+            <p class="adresse">Cantersteen 10, 1000 Bruxelles</p>
 
             <ul class="no-bullets list--inline mt1">
                 <li class="mr1">
@@ -129,7 +102,7 @@ class Home extends Component {
                     <a href="https://www.linkedin.com" class="link"><img class="icon" src="/img/instagram.svg" alt="Instagram"/></a>
                 </li>
                  <li class="mr1">
-                    <a href="https://www.twitter.com" class="link"><img class="icon" src="/img/linkedin.svg" alt="Twitter"/></a>
+                    <a href="https://www.twitter.com" class="link"><img class="icon2" src="/img/linkedin.svg" alt="Linkedin"/></a>
                 </li>
             </ul>
         </div>

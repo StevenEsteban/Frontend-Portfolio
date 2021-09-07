@@ -7,27 +7,24 @@ const Navbar = () => {
     return (
         <>
         <Nav>
-            <NavLink to ="/">
+            <NavLink className="navlinks" to ="/">
                 <h1>logo</h1>
             </NavLink>
             <Bars />
             <NavMenu>
-                <NavLink to="/" activeStyle>
+                <NavLink className="navlinks" to="/" activeStyle>
                     Home
                 </NavLink>
-                <NavLink to="/PreviousWork" activeStyle>
+                <NavLink className="navlinks" to="/PreviousWork" activeStyle>
                     Previous Work
                 </NavLink>
-                <NavLink to="/FAQ" activeStyle>
+                <NavLink className="navlinks" to="/FAQ" activeStyle>
                     FAQ
                 </NavLink>
-                <NavLink to="/Contact" activeStyle>
+                <NavLink className="navbtn" to="/Contact" activeStyle>
                     Contact
                 </NavLink>
             </NavMenu>
-            <NavBtn>
-                <NavBtnLink to="/Contact-me-now">Contact now</NavBtnLink>
-            </NavBtn>
         </Nav>
         </>
     );
