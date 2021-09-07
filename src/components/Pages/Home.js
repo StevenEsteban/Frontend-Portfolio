@@ -74,18 +74,14 @@ class Home extends Component {
         </div>
 
 
-        <section class="align--center pt2 pb3">
-            <p class="h2">Please fill in the Form</p>
-            <p>and then hit submit, of course.</p>
-        </section>
-
 
 
     </main>
     <div id="root"></div>
     <section class="align--center pt2 pb3">
-        <p class="h2">Liked the price prediction ?</p>
-        <p>then reach us out !</p>
+        <p class="h2">Want to create something together ?</p>
+        <div className=""><Link to="/Contact"><button class="btn1">Reach me out !</button></Link></div>
+
     </section>
    
  

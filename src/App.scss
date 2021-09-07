@@ -61,7 +61,7 @@ button {
 }
 
 button:hover {
-    background-color: #5A5661a0;
+    background-color: #bdc2e2a0;
 }
 
 .formWrap {
@@ -563,8 +563,8 @@ img::-moz-selection {
     text-decoration: none;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
-    -webkit-transition: background-color .2s ease-out, background .2s ease-out, color .2s ease-out, border .2s ease-out;
-    transition: background-color .2s ease-out, background .2s ease-out, color .2s ease-out, border .2s ease-out;
+    -webkit-transition: background-color .4s ease-out, background .4s ease-out, color .4s ease-out, border .4s ease-out;
+    transition: background-color .4s ease-out, background .4s ease-out, color .4s ease-out, border .4s ease-out;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -593,8 +593,8 @@ img::-moz-selection {
     text-decoration: none;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
-    -webkit-transition: background-color .2s ease-out, background .2s ease-out, color .2s ease-out, border .2s ease-out;
-    transition: background-color .2s ease-out, background .2s ease-out, color .2s ease-out, border .2s ease-out;
+    -webkit-transition: background-color .4s ease-out, background .4s ease-out, color .4s ease-out, border .4s ease-out;
+    transition: background-color .4s ease-out, background .4s ease-out, color .4s ease-out, border .4s ease-out;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -687,8 +687,8 @@ fieldset[disabled] a.btn {
 .container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
-    width: 100%
+    max-width: 1460px;
+    width: 130%
 }
 
 canvas,
@@ -1711,7 +1711,7 @@ hr {
     border: none;
     outline: none;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
     margin-left: 155px;
     text-decoration: none !important;
     &:hover {
