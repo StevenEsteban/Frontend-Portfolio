@@ -15,7 +15,7 @@ class Home extends Component {
 <h1>Steven Esteban Gonzalez</h1>
 <h3>Hi, I'm a Belgian Dev Trainee. <br/> Be my guest and make sure to checkout my work !</h3>
 </div>
-<div className="ButtonCheckWork"><a  href="#portfolio">Checkout my work</a> </div>
+<div className=""><button class="btn1">Check my work out</button></div>
 
 </section>
 
