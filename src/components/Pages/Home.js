@@ -92,13 +92,13 @@ class Home extends Component {
 
             <ul class="no-bullets list--inline mt1">
                 <li class="mr1">
-                    <a href="https://www.facebook.com" class="link"><img class="icon" src="/img/facebook.svg" alt="Facebook"/></a>
+                    <a href="https://www.facebook.com/steven.estebangonzalez/" class="link"><img class="icon" src="/img/facebook.svg" alt="Facebook"/></a>
                 </li>
                 <li class="mr1">
-                    <a href="https://www.linkedin.com" class="link"><img class="icon" src="/img/instagram.svg" alt="Instagram"/></a>
+                    <a href="https://www.instagram.com/steven_esteban/" class="link"><img class="icon" src="/img/instagram.svg" alt="Instagram"/></a>
                 </li>
                  <li class="mr1">
-                    <a href="https://www.twitter.com" class="link"><img class="icon2" src="/img/linkedin.svg" alt="Linkedin"/></a>
+                    <a href="https://www.linkedin.com/in/steven-esteban-gonzalez-/" class="link"><img class="icon2" src="/img/linkedin.svg" alt="Linkedin"/></a>
                 </li>
             </ul>
         </div>

@@ -81,58 +81,26 @@ class PreviousWork extends Component {
   
   
       </main>
-      <div id="root"></div>
-      <section class="align--center pt2 pb3">
-          <p class="h2">Liked the price prediction ?</p>
-          <p>then reach us out !</p>
-      </section>
-      <section class="bg--secondary-color pt3 pb3">
-          <div class="container">
-              <div class="mb2 align--center">
-                  <h3 class="mb1">Contact me to get started</h3>
-                  <p>I'll reply, I promise</p>
-              </div>
-  
-  
-              <form>
-                  <div class="grid-row">
-                      <div class="grid-column span-half mt1">
-                          <label class="label" for="name">Name</label>
-                          <input class="form-control" id="name"/>
-                      </div>
-                      <div class="grid-column span-half mt1">
-                          <label class="label" for="email">Email</label>
-                          <input class="form-control" id="email" type="email"/>
-                      </div>
-                  </div>
-                  <label class="label mt1" for="dates">Company Name (optional)</label>
-                  <input class="form-control" id="dates"/>
-                  <label class="label mt1" for="message">Message</label>
-                  <textarea class="form-control" id="message"></textarea>
-                  <div class='submitButton'>
-                      <button class="btn btn--outline">Send</button>
-                  </div>
-              </form>
-          </div>
-      </section>
+      
   
       <footer class="pt2 pb2">
-          <div class="container align--center">
-              <p>Cantersteen 10, 1000 Bruxelles</p>
-  
-              <ul class="no-bullets list--inline mt1">
-                  <li class="mr1">
-                      <a href="https://www.facebook.com" class="link"><img class="icon" src="/img/facebook.svg" alt="Facebook"/></a>
-                  </li>
-                  <li class="mr1">
-                      <a href="https://www.linkedin.com" class="link"><img class="icon" src="/img/instagram.svg" alt="Instagram"/></a>
-                  </li>
-                   <li class="mr1">
-                      <a href="https://www.twitter.com" class="link"><img class="icon" src="/img/linkedin.svg" alt="Twitter"/></a>
-                  </li>
-              </ul>
-          </div>
-      </footer>
+        <div class="container align--center">
+            <p class="adresse">Cantersteen 10, 1000 Bruxelles</p>
+
+            <ul class="no-bullets list--inline mt1">
+                <li class="mr1">
+                    <a href="https://www.facebook.com/steven.estebangonzalez/" class="link"><img class="icon" src="/img/facebook.svg" alt="Facebook"/></a>
+                </li>
+                <li class="mr1">
+                    <a href="https://www.instagram.com/steven_esteban/" class="link"><img class="icon" src="/img/instagram.svg" alt="Instagram"/></a>
+                </li>
+                 <li class="mr1">
+                    <a href="https://www.linkedin.com/in/steven-esteban-gonzalez-/" class="link"><img class="icon2" src="/img/linkedin.svg" alt="Linkedin"/></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
   
   
       <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
