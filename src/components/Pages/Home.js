@@ -15,7 +15,7 @@ class Home extends Component {
 <h1>Steven Esteban Gonzalez</h1>
 <h3>Hi, I'm a Belgian Dev Trainee. <br/> Be my guest and make sure to checkout my work !</h3>
 </div>
-<div className=""><Link to="/PreviousWork"><button class="btn1">Check my work out</button></Link></div>
+<div className=""><Link to="/PreviousWork"><button class="btn1">Check out my work</button></Link></div>
 
 </section>
 
@@ -40,33 +40,33 @@ class Home extends Component {
 
                 <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
                     <div class="relative">
-                        <img src="/img/FutureSole.png" alt="Cabin"/>
+                        <img src="/img/Imac-macbook.png" alt="Cabin"/>
                     </div>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-2">
                     <h3>Get the right estimation</h3>
-                    <p>Our greatest experts gathered their knowledge to give you the most precise estimation for your future home.Thanks to the form below, you'll get an idea of what your future dreamhouse might cost you.</p>
+                    <p className="paragraphes">Our greatest experts gathered their knowledge to give you the most precise estimation for your future home.Thanks to the form below, you'll get an idea of what your future dreamhouse might cost you.</p>
                 </div>
 
                 <div class="grid-column span-half pt3 pb3 mobile-m order-4">
                     <h3>As fast as the API can load</h3>
-                    <p>In just a few seconds (normally) you'll be able to estimate any type of house you can think about. <br/> Everything starts with a price prediction. </p>
+                    <p className="paragraphes">In just a few seconds (normally) you'll be able to estimate any type of house you can think about. <br/> Everything starts with a price prediction. </p>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-3 reveal-on-scroll is-revealing">
                     <div class="relative2">
-                        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="Teepee"/>
+                        <img src="/img/Futuresole2.png" alt="Teepee"/>
                     </div>
                 </div>
 
                 <div class="grid-column span-half pt3 pb3 mobile-m order-5 reveal-on-scroll is-revealing">
                     <div class="relative">
-                        <img class="info-image relative z2 image" src="https://images.adsttc.com/media/images/5e1d/02c3/3312/fd58/9c00/06e9/large_jpg/NewHouse_SA_Photo_01.jpg?1578959519" alt="Fishing"/>
+                        <img class="info-image relative z2 image" src="img/macbook.png" alt="Fishing"/>
 
                     </div>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-6">
                     <h3>Get in touch </h3>
-                    <p>Want to buy or sell your house ? <br/>Then make sure to fill in the contact form below to reach us out. Our experts will do their best to find your new house that matches all your expectations. </p>
+                    <p className="paragraphes">Want to buy or sell your house ? <br/>Then make sure to fill in the contact form below to reach us out. Our experts will do their best to find your new house that matches all your expectations. </p>
                 </div>
 
             </section>

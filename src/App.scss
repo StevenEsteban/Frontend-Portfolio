@@ -695,12 +695,16 @@
             // width: 130%
         }
         
+        .paragraphes {
+            padding: 7px;
+        }
+        
         canvas,
         iframe,
         img,
         svg,
         video {
-            max-width: 75%
+            max-width: 93%
         }
         
         .logo {
@@ -745,7 +749,8 @@
             line-height: 1.6rem;
             max-width: 100%;
             padding: .1rem 0 .1rem;
-            width: 100%;
+            width: 90%;
+            margin-left: 10px;
             -moz-osx-font-smoothing: grayscale
         }
         
@@ -881,7 +886,7 @@
                 -ms-flex-preferred-size: 100%;
                 flex-basis: 100%;
                 max-width: 100%;
-                padding: 7px;
+                padding: 0;
                 margin-left: 0
             }
         }
@@ -1221,7 +1226,8 @@
         
         .h3,
         h3 {
-            font-size: 1.333rem
+            font-size: 1.2rem;
+            padding: 4px;
         }
         
         .h4,
