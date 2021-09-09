@@ -40,7 +40,7 @@ class Home extends Component {
 
                 <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
                     <div class="relative">
-                        <img src="https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607" height="" alt="Cabin"/>
+                        <img src="/img/FutureSole.png" alt="Cabin"/>
                     </div>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-2">

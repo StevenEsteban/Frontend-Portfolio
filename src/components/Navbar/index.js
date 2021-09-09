@@ -1,16 +1,16 @@
 import React from 'react'
 import { Nav, Bars, NavMenu, NavLink, NavBtn, NavBtnLink } from './Navbar';
-
+import MobileNavigation from './MobileNav';
 
 
 const Navbar = () => {
     return (
         <>
-        <Nav>
+        <Nav className ="NavDesktop">
             <NavLink className="navlinks" to ="/">
                 <h1>logo</h1>
             </NavLink>
-            <Bars />
+            <Bars className="Barz"/>
             <NavMenu>
                 <NavLink className="navlinks" to="/" activeStyle>
                     Home
@@ -26,6 +26,7 @@ const Navbar = () => {
                 </NavLink>
             </NavMenu>
         </Nav>
+        <MobileNavigation />
         </>
     );
 };

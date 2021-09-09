@@ -692,7 +692,7 @@
             margin-left: auto;
             margin-right: auto;
             max-width: 1460px;
-            width: 130%
+            // width: 130%
         }
         
         canvas,
@@ -700,7 +700,7 @@
         img,
         svg,
         video {
-            max-width: 100%
+            max-width: 75%
         }
         
         .logo {
@@ -1698,13 +1698,13 @@
         
         .relative {
             position: relative;
-            box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+            // box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
             ;
         }
         
         .relative2 {
             position: relative;
-            box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+            // box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
         }
         
         .navbtn {
@@ -1736,8 +1736,41 @@
             &:hover {
                 color: #15cdfc;
                 transition: all 0.4s ease-in-out;
-                // text-decoration: underline;
             }
+        }
+        
+        .Barz {
+            display: none;
+            color: #fff;
+            @media screen and (max-width: 768px) {
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: translate(-100%, 75%);
+                font-size: 1.8rem;
+                cursor: pointer;
+            }
+        }
+        
+        .MobileNavigation {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .MobileNavigation {
+                display: flex;
+                ;
+            }
+        }
+        
+        .NavDesktop {
+            background: #000;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem calc((100vw - 1000px) / 2);
+            z-index: 10;
         }
         
         .absolute {
