@@ -78,7 +78,7 @@ class PreviousWork extends Component {
 </main>
 <div id="root"></div>
     <section class="align--center pt2 pb3">
-        <p class="h2">Want to create something together ?</p>
+        <p class="WanTo">Want to create something together ?</p>
         <div className=""><Link to="/Contact"><button class="btn1">Reach me out !</button></Link></div>
 
     </section>
