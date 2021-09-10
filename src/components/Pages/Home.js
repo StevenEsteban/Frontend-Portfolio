@@ -13,7 +13,7 @@ class Home extends Component {
 <section className="SectionHome">
 <div className="TitleName">
 <h1>Steven Esteban Gonzalez</h1>
-<h3>Hi, I'm a Belgian Dev Trainee. <br/> Be my guest and make sure to checkout my work !</h3>
+<h3>Hi, I'm a Belgian Dev Trainee. <br/> Be my guest and make sure to check out my work !</h3>
 </div>
 <div className=""><Link to="/PreviousWork"><button class="btn1">Check out my work</button></Link></div>
 
@@ -48,11 +48,9 @@ class Home extends Component {
                 <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
                     <div class="relative">
                         
-                         <TransformWrapper>
-                         <TransformComponent>
-                        <img src="/img/Imac-macbook.png" alt="Cabin"/>
-                        </TransformComponent>
-                         </TransformWrapper>
+                      
+                        <img src="/img/Web.png" alt="Cabin"/>
+                     
                     </div>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-2">
@@ -66,21 +64,17 @@ class Home extends Component {
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-3 reveal-on-scroll is-revealing">
                     <div class="relative2">
-                    <TransformWrapper>
-                         <TransformComponent>
-                        <img src="/img/Futuresole2.png" alt="Teepee"/>
-                        </TransformComponent>
-                         </TransformWrapper>
+                 
+                        <img src="/img/computers.png" alt="Teepee"/>
+                       
                     </div>
                 </div>
 
                 <div class="grid-column span-half pt3 pb3 mobile-m order-5 reveal-on-scroll is-revealing">
                     <div class="relative">
-                    <TransformWrapper>
-                         <TransformComponent>
+                   
                         <img class="info-image relative z2 image" src="img/macbook.png" alt="Fishing"/>
-                        </TransformComponent>
-                         </TransformWrapper>
+                     
                     </div>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-6">
