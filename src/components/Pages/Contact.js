@@ -23,6 +23,7 @@ function Contact() {
         )
         .then((response) => {
           console.log ('message sent !', response.status, response.text);
+          // alert
         })
         .catch((err) => {
           console.log('failed to send your message', err);
