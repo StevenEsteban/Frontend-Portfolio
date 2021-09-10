@@ -14,7 +14,55 @@
             height: 660px;
             background-image: url("https://i.imgur.com/DOw7n6m.jpg");
             background-repeat: no-repeat;
-            // background-size: cover;
+        }
+        
+        .DosSectionHome {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 400px !important;
+            background-image: url("https://i.imgur.com/DOw7n6m.jpg");
+            background-repeat: no-repeat;
+        }
+        
+        @mixin breakpoint($point) {
+            @media (max-width: $point) {
+                @content;
+            }
+        }
+        
+        ul {
+            li {
+                a {
+                    display: block;
+                    padding: 15px;
+                    text-decoration: none;
+                    color: #222;
+                    transition: 0.5s ease-in-out;
+                    border-radius: 4px;
+                }
+                &.Twitter:hover {
+                    transition: 0.5s ease-in-out;
+                    background-color: #55acee;
+                }
+                &.Dribbble:hover {
+                    transition: 0.5s ease-in-out;
+                    background-color: #0274B3;
+                }
+                &.GitHub:hover {
+                    transition: 0.5s ease-in-out;
+                    background-color: #333;
+                    color: white !important;
+                }
+            }
+        }
+        
+        .SocialM ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            @media screen {}
         }
         
         .TitleName {
@@ -349,18 +397,6 @@
         textarea {
             -ms-touch-action: manipulation;
             touch-action: manipulation
-        }
-        
-        ol,
-        ul {
-            margin-bottom: .8rem
-        }
-        
-        ol ol,
-        ol ul,
-        ul ol,
-        ul ul {
-            margin-bottom: 0
         }
         
         b,

@@ -35,11 +35,42 @@ function Contact() {
 
      return( 
 <div>
+<div className="DosSectionHome"> 
+        <section>
+    <div className="TitleName">
+    <h1>Bienvenu</h1>
+    <h3>okkkkkk<br/> </h3>
+    </div>
+    
+    </section></div>
+<header class="pt2 pb1 align--center">
+        <div class="container">
+            
+            <h2>Links</h2>
+        </div>
+    </header>
+    
+  <div className="SocialM"><ul className="SocialM">
+    <li class="Twitter"><a href="https://www.facebook.com/steven.estebangonzalez/" target="blank_">
+        <h3>Facebook</h3>
+        </a></li>
+        <li class="GitHub"><a href="https://github.com/StevenEsteban" target="blank_">
+        <h3>GitHub</h3>
+        </a></li>
+    <li class="Dribbble"><a href="https://www.linkedin.com/in/steven-esteban-gonzalez-/" target="blank_">
+        <h3>Linkedin</h3>
+        </a></li>
+    
+</ul>
+</div>
+
+  
+
 <div className="SendForm">
       <section class="bg--secondary-color pt3 pb3">
         <div class="container">
             <div class="mb2 align--center">
-                <h3 class="mb1">Contact me to get started</h3>
+                <h3 class="mb1">Or send me directly a mail</h3>
                 <p>I'll reply, I promise</p>
             </div>
 
@@ -79,6 +110,9 @@ function Contact() {
                 </li>
                  <li class="mr1">
                     <a href="https://www.linkedin.com/in/steven-esteban-gonzalez-/" class="link"><img class="icon2" src="/img/linkedin.svg" alt="Linkedin"/></a>
+                </li>
+                <li class="mr1">
+                    <a href="https://github.com/StevenEsteban" class="link"><img class="icon2" src="/img/iconmonstr-github-1.svg" alt="Github"/></a>
                 </li>
             </ul>
         </div>

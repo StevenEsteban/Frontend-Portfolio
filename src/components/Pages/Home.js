@@ -100,6 +100,9 @@ class Home extends Component {
                  <li class="mr1">
                     <a href="https://www.linkedin.com/in/steven-esteban-gonzalez-/" class="link"><img class="icon2" src="/img/linkedin.svg" alt="Linkedin"/></a>
                 </li>
+                <li class="mr1">
+                    <a href="https://github.com/StevenEsteban" class="link"><img class="icon2" src="/img/iconmonstr-github-1.svg" alt="Github"/></a>
+                </li>
             </ul>
         </div>
     </footer>

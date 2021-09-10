@@ -10,13 +10,15 @@ class PreviousWork extends Component {
     
         return( 
   <div>
-  <section className="SectionHome">
+      <div className="DosSectionHome"> 
+      <section>
   <div className="TitleName">
   <h1>Bienvenu</h1>
-  <h3>Taylapute<br/> </h3>
+  <h3>okkk<br/> </h3>
   </div>
   
-  </section>
+  </section></div>
+ 
   
   <body class="has-animations">
   
@@ -25,7 +27,7 @@ class PreviousWork extends Component {
       <header class="pt2 pb1 align--center">
           <div class="container">
               <p>Welcome to</p>
-              <h1>Taylapute</h1>
+              <h1>okkkk</h1>
           </div>
       </header>
   
@@ -97,6 +99,9 @@ class PreviousWork extends Component {
                 </li>
                  <li class="mr1">
                     <a href="https://www.linkedin.com/in/steven-esteban-gonzalez-/" class="link"><img class="icon2" src="/img/linkedin.svg" alt="Linkedin"/></a>
+                </li>
+                <li class="mr1">
+                    <a href="https://github.com/StevenEsteban" class="link"><img class="icon2" src="/img/iconmonstr-github-1.svg" alt="Github"/></a>
                 </li>
             </ul>
         </div>
