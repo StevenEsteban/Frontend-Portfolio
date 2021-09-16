@@ -46,7 +46,7 @@ export const StyledBurger = styled.button `
 }
 
 @media screen and (max-width:469px) {
-  padding-top: 18px;
+  padding-top: 12px;
   height: 3rem !important;
 }
 `

@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { send } from 'emailjs-com';
 
 
+
 function Contact() {
  const [toSend, setToSend] = useState ({
         from_name:'',
@@ -12,6 +13,8 @@ function Contact() {
         message:'',
         reply_to:'',
       });
+
+      
 
       const onSubmit = (e) => {
         e.preventDefault();
@@ -23,7 +26,7 @@ function Contact() {
         )
         .then((response) => {
           console.log ('message sent !', response.status, response.text);
-          // alert
+        
         })
         .catch((err) => {
           console.log('failed to send your message', err);

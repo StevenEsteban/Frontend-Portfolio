@@ -7,7 +7,7 @@ const Menu = ({ open }) => {
       <a href="/">
         Home
       </a>
-      <a href="/PreviousWork">
+      <a className="spacing" href="/PreviousWork">
         Previous Work
         </a>
       <a href="/Contact">

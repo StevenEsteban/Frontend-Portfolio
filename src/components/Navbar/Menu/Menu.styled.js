@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledMenu = styled.nav`
+export const StyledMenu = styled.nav `
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,6 +22,7 @@ export const StyledMenu = styled.nav`
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
 
   a {
+
     font-size: 2rem;
     text-transform: uppercase;
     padding: 2rem 0;
