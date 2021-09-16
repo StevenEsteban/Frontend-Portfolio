@@ -41,11 +41,11 @@ class PreviousWork extends Component {
 
         <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
             <div class="relative">
-            <TransformWrapper>
-                         <TransformComponent>
+            
+                        
                 <img src="/img/Imac-macbook.png" alt="Cabin"/>
-                </TransformComponent>
-                         </TransformWrapper>
+              
+                         
             </div>
         </div>
         <div class="grid-column span-half pt3 pb3 mobile-m order-2">
@@ -59,21 +59,19 @@ class PreviousWork extends Component {
         </div>
         <div class="grid-column span-half pt3 pb3 mobile-m order-3 reveal-on-scroll is-revealing">
             <div class="relative2">
-            <TransformWrapper>
-                         <TransformComponent>
+           
+                   
                 <img src="/img/Futuresole2.png" alt="Teepee"/>
-                </TransformComponent>
-                         </TransformWrapper>
+              
+                         
             </div>
         </div>
 
         <div class="grid-column span-half pt3 pb3 mobile-m order-5 reveal-on-scroll is-revealing">
             <div class="relative">
-            <TransformWrapper>
-                         <TransformComponent>
+            
                 <img class="info-image relative z2 image" src="img/macbook.png" alt="Fishing"/>
-                </TransformComponent>
-                         </TransformWrapper>
+           
             </div>
         </div>
         <div class="grid-column span-half pt3 pb3 mobile-m order-6">

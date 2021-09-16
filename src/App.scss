@@ -58,9 +58,13 @@
             }
         }
         
+        .spacing {
+            margin-top: 1px;
+        }
+        
         .SocialM ul {
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             list-style-type: none;
             @media screen {}
         }

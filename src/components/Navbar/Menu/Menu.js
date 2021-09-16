@@ -4,10 +4,10 @@ import { StyledMenu } from './Menu.styled';
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <a href="/">
+      <a className="spacing" href="/">
         Home
       </a>
-      <a className="spacing" href="/PreviousWork">
+      <a href="/PreviousWork">
         Previous Work
         </a>
       <a href="/Contact">
