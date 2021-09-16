@@ -1,7 +1,5 @@
 import React, {Component} from "react";
 import { BrowserRouter, Route, Link, Router } from "react-router-dom";
-import Navbar from "../Navbar";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 
 class Home extends Component {
@@ -34,12 +32,6 @@ class Home extends Component {
     <main>
 
         <div class="container">
- 
-      {/* <TransformWrapper>
-        <TransformComponent>
-          <img src="image.jpg" alt="test" />
-        </TransformComponent>
-      </TransformWrapper> */}
 
 
 
