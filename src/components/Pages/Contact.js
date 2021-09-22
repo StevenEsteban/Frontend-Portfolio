@@ -39,19 +39,15 @@ function Contact() {
 <div className="DosSectionHome"> 
         <section>
     <div className="TitleName">
-    <h1>Bienvenu</h1>
-    <h3>okkkkkk<br/> </h3>
+    <h1>Want to reach out ?</h1>
+    <h3> </h3>
     </div>
     
     </section></div>
 <header class="pt2 pb1 align--center">
         <div class="container">
             
-            <h2>Links</h2>
-        </div>
-    </header>
-    
-  <div className="SocialM"><ul className="SocialM">
+        <div className="SocialM"><ul className="SocialM">
     <li class="Twitter"><a href="https://www.facebook.com/steven.estebangonzalez/" target="blank_">
         <h3>Facebook</h3>
         </a></li>
@@ -64,6 +60,10 @@ function Contact() {
     
 </ul>
 </div>
+        </div>
+    </header>
+    
+
 
   
 

@@ -13,8 +13,7 @@ class PreviousWork extends Component {
       <div className="DosSectionHome"> 
       <section>
   <div className="TitleName">
-  <h1>Bienvenu</h1>
-  <h3>okkk<br/> </h3>
+  <h1>Portfolio</h1>
   </div>
   
   </section></div>
@@ -39,23 +38,21 @@ class PreviousWork extends Component {
 
     <section class="grid-row grid-row--center">
 
-        <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
+        <div class="grid-column span-half pt3 pb3 mobile-m order-5 reveal-on-scroll is-revealing">
             <div class="relative">
             
-                        
-                <img src="/img/Imac-macbook.png" alt="Cabin"/>
-              
-                         
+                <img class="info-image relative z2 image" src="img/macbook.png" alt="Fishing"/>
+           
             </div>
         </div>
-        <div class="grid-column span-half pt3 pb3 mobile-m order-2">
-            <h3>Get the right estimation</h3>
-            <p className="paragraphes">Our greatest experts gathered their knowledge to give you the most precise estimation for your future home.Thanks to the form below, you'll get an idea of what your future dreamhouse might cost you.</p>
+        <div class="grid-column span-half pt3 pb3 mobile-m order-6">
+            <h3>Price Prediction Form </h3>
+            <p className="paragraphes">Here's my first project using React where I created, designed and linked a form to an existing API. </p>
         </div>
 
         <div class="grid-column span-half pt3 pb3 mobile-m order-4">
-            <h3>As fast as the API can load</h3>
-            <p className="paragraphes">In just a few seconds (normally) you'll be able to estimate any type of house you can think about. <br/> Everything starts with a price prediction. </p>
+            <h3>Fully responsive website</h3>
+            <p className="paragraphes">Although this definitely deserves an update today, this was my first fully responsive single page website with a contact form and paying attention to the SEO (search engine optimization). </p>
         </div>
         <div class="grid-column span-half pt3 pb3 mobile-m order-3 reveal-on-scroll is-revealing">
             <div class="relative2">
@@ -67,17 +64,21 @@ class PreviousWork extends Component {
             </div>
         </div>
 
-        <div class="grid-column span-half pt3 pb3 mobile-m order-5 reveal-on-scroll is-revealing">
+        <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
             <div class="relative">
             
-                <img class="info-image relative z2 image" src="img/macbook.png" alt="Fishing"/>
-           
+                        
+                <img src="/img/Imac-macbook.png" alt="Cabin"/>
+              
+                         
             </div>
         </div>
-        <div class="grid-column span-half pt3 pb3 mobile-m order-6">
-            <h3>Get in touch </h3>
-            <p className="paragraphes">Want to buy or sell your house ? <br/>Then make sure to fill in the contact form below to reach us out. Our experts will do their best to find your new house that matches all your expectations. </p>
+        <div class="grid-column span-half pt3 pb3 mobile-m order-2">
+            <h3>DarkWep</h3>
+            <p className="paragraphes">Funny side project where I had to create and desing a full e-commerce experience. Although this is probably my most advanced project so far, it unfortunaly cannot be put online...  </p>
         </div>
+
+       
 
     </section>
 

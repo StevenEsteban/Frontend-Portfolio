@@ -12,7 +12,7 @@ class Home extends Component {
 <section className="SectionHome">
 <div className="TitleName">
 <h1>Steven Esteban Gonzalez</h1>
-<h3>Hi, I'm a Belgian Dev Trainee. <br/> Be my guest and make sure to check out my work !</h3>
+<h3>Hi, I'm a junior web developer. <br/> Be my guest and make sure to check out my work !</h3>
 </div>
 <div className=""><Link to="/PreviousWork"><button class="btn1">Check out my work</button></Link></div>
 
@@ -25,7 +25,18 @@ class Home extends Component {
     <header class="pt2 pb1 align--center">
         <div class="container">
             
-            <h1>About Me</h1>
+            <h1 className="about">About Me</h1>
+            <br/>
+<div className="aboutMe">
+    <h4>
+After a career change, I was eager to enter the world
+of web development. Since then, my main goal is to
+improve my IT skills and discover new web
+technologies everyday.
+More focused on the Frontend at the moment, I am
+willing to increase my knowledge on both Front- and
+Backend.</h4></div>
+        
         </div>
     </header>
 
@@ -38,18 +49,18 @@ class Home extends Component {
 
             <section class="grid-row grid-row--center">
 
-                <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
+                {/* <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
                     <div class="relative">
                         
                       
                         <img src="/img/Web.png" alt="Cabin"/>
                      
                     </div>
-                </div>
-                <div class="grid-column span-half pt3 pb3 mobile-m order-2">
+                </div> */}
+                {/* <div class="grid-column span-half pt3 pb3 mobile-m order-2">
                     <h3>Get the right estimation</h3>
                     <p className="paragraphes">Our greatest experts gathered their knowledge to give you the most precise estimation for your future home.Thanks to the form below, you'll get an idea of what your future dreamhouse might cost you.</p>
-                </div>
+                </div> */}
 
                 <div class="grid-column span-half pt3 pb3 mobile-m order-4">
                     <h3>As fast as the API can load</h3>
