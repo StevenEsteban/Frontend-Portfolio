@@ -39,7 +39,7 @@ function Contact() {
 <div className="DosSectionHome"> 
         <section>
     <div className="TitleName">
-    <h1>Want to reach out ?</h1>
+    <h1 className="reachOut">Want to reach out ?</h1>
     
     </div>
     
