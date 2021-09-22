@@ -40,11 +40,12 @@ function Contact() {
         <section>
     <div className="TitleName">
     <h1>Want to reach out ?</h1>
-    <h3> </h3>
+    
     </div>
     
     </section></div>
-<header class="pt2 pb1 align--center">
+    <div className="shadow">
+<header class="pt2 pb1 align--center ">
         <div class="container">
             
         <div className="SocialM"><ul className="SocialM">
@@ -62,7 +63,7 @@ function Contact() {
 </div>
         </div>
     </header>
-    
+    </div>
 
 
   
