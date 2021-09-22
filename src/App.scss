@@ -44,7 +44,7 @@
                 text-decoration: none;
                 letter-spacing: 0.1em;
                 display: inline-block;
-                font-size: 0.1rem !important;
+                position: relative;
             }
             a:after {
                 background: none repeat scroll 0 0 transparent;
@@ -55,7 +55,7 @@
                 left: 50%;
                 position: absolute;
                 background: black;
-                transition: width 0.5s ease 0s, left 0.5s ease 0s;
+                transition: width 0.3s ease 0s, left 0.3s ease 0s;
                 width: 0;
             }
             a:hover:after {
