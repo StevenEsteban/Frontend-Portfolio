@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { BrowserRouter, Route, Link, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -8,8 +8,14 @@ class Home extends Component {
     render(){
     
       return( 
+          <body>
+              
+         
 <div>
+    <div className="headBackground">
+    
 <section className="SectionHome">
+
 <div className="TitleName">
 <h1>Steven Esteban Gonzalez</h1>
 <h3>Hi, I'm a junior web developer. <br/> Be my guest and make sure to check out my work !</h3>
@@ -17,8 +23,8 @@ class Home extends Component {
 <div className=""><Link to="/PreviousWork"><button class="btn1">Check out my work</button></Link></div>
 
 </section>
-
-<body class="has-animations">
+</div>
+<div class="has-animations">
 
 
 
@@ -101,7 +107,7 @@ Backend.</h4></div>
 
     </section>
    
- 
+   
 
     <footer class="pt2 pb2">
         <div class="container align--center">
@@ -135,11 +141,11 @@ Backend.</h4></div>
 
 
 
-</body>
-
-
+</div>
 
 </div>
+
+</body>
 
       )}}
     

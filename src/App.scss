@@ -12,6 +12,9 @@
             align-items: center;
             justify-content: center;
             height: 660px;
+        }
+        
+        .headBackground {
             background-image: url("https://i.imgur.com/DOw7n6m.jpg");
             background-repeat: no-repeat;
         }
@@ -1789,7 +1792,7 @@
             background: #15CDFC;
             border-radius: 4px;
             padding: 10px 22px;
-            color: #fff;
+            color: black;
             border: none;
             outline: none;
             cursor: pointer;
@@ -1804,7 +1807,7 @@
         }
         
         .navlinks {
-            color: #fff;
+            color: black;
             display: flex;
             align-items: center;
             text-decoration: none;
@@ -1814,20 +1817,6 @@
             &:hover {
                 color: #15cdfc;
                 transition: all 0.4s ease-in-out;
-            }
-        }
-        
-        .Barz {
-            display: none;
-            color: #fff;
-            @media screen and (max-width: 768px) {
-                display: block;
-                position: absolute;
-                top: 0;
-                right: 0;
-                transform: translate(-100%, 75%);
-                font-size: 1.8rem;
-                cursor: pointer;
             }
         }
         
@@ -1842,13 +1831,25 @@
             }
         }
         
+        @media (max-width: 768px) {
+            .SectionHome h1 {
+                margin-top: 70px;
+            }
+        }
+        
         .NavDesktop {
-            background: #000;
+            background: transparent;
             height: 80px;
             display: flex;
             justify-content: space-between;
             padding: 0.5rem calc((100vw - 1000px) / 2);
             z-index: 10;
+        }
+        
+        .blockNav {
+            position: sticky !important;
+            top: 0px !important;
+            margin-top: -80px;
         }
         
         .absolute {
