@@ -1843,12 +1843,14 @@
         }
         
         .navlinks {
-            color: white !important;
+            color: white;
             display: flex;
             align-items: center;
             text-decoration: none;
             padding: 0 1rem;
             height: 100%;
+            font-weight: 600;
+            white-space: nowrap;
             cursor: pointer;
             &:hover {
                 color: #15cdfc;
@@ -1869,7 +1871,7 @@
         
         @media (max-width: 768px) {
             .SectionHome h1 {
-                margin-top: 125px;
+                margin-top: 105px;
             }
         }
         
