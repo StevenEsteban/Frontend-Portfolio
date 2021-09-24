@@ -4,6 +4,7 @@ import { StyledMenu } from './Menu.styled';
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
+      <img className="logomenu" src="\img\logo.png" alt="logooo"/>
       <a className="spacing" href="/">
         Home
       </a>
