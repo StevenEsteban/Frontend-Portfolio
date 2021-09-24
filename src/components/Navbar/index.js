@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="blockNav">
         <Nav className ="NavDesktop">
             <NavLink className="navlinks" to ="/">
-                <h1 className="logoNav">logo</h1>
+                <img className="logoimg" src="\img\logo.png" alt="logooo"/>
             </NavLink> 
             <NavMenu>
                 <NavLink className="navlinks" to="/" activeStyle>

@@ -4,7 +4,10 @@ import Navbar from "../Navbar";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 
+
 class PreviousWork extends Component {
+
+  
 
     render(){
     
@@ -13,7 +16,7 @@ class PreviousWork extends Component {
       <div className="DosSectionHome"> 
       <section>
   <div className="TitleName">
-  <h1>Portfolio</h1>
+  <h1 className="PortfolioStyle">Portfolio</h1>
   </div>
   
   </section></div>
@@ -25,8 +28,8 @@ class PreviousWork extends Component {
   
       <header class="pt2 pb1 align--center">
           <div class="container">
-              <p>Welcome to</p>
-              <h1>okkkk</h1>
+              <p>Welcome to my</p>
+              <h1>Previous projects</h1>
           </div>
       </header>
   
@@ -41,7 +44,7 @@ class PreviousWork extends Component {
         <div class="grid-column span-half pt3 pb3 mobile-m order-5 reveal-on-scroll is-revealing">
             <div class="relative">
             
-                <img class="info-image relative z2 image" src="img/macbook.png" alt="Fishing"/>
+                <img class="info-image relative z2 image Darkwep" src="img/macbook.png" alt="Fishing" />
            
             </div>
         </div>

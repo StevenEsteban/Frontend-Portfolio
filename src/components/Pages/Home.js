@@ -75,7 +75,7 @@ Backend.</h4></div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-3 reveal-on-scroll is-revealing">
                     <div class="relative2">
                  
-                        <img src="/img/computers.png" alt="Teepee"/>
+                        <img className="imageOrdi" src="/img/computers.png" alt="Teepee"/>
                        
                     </div>
                 </div>

@@ -12,11 +12,27 @@
             align-items: center;
             justify-content: center;
             height: 660px;
+            color: #FCFBF7;
+            button {
+                color: #FCFBF7;
+                border: solid #FCFBF7;
+            }
         }
         
         .headBackground {
-            background-image: url("https://i.imgur.com/DOw7n6m.jpg");
+            background-image: url("https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
             background-repeat: no-repeat;
+        }
+        
+        .logoimg {
+            max-width: 25%;
+            // margin-top: -17px;
+        }
+        
+        @media screen and (min-width:769px) {
+            .logoimg {
+                max-width: 50% !important;
+            }
         }
         
         .DosSectionHome {
@@ -25,7 +41,8 @@
             align-items: center;
             justify-content: center;
             height: 300px !important;
-            background-image: url("https://i.imgur.com/DOw7n6m.jpg");
+            background-image: url("https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            color: #FCFBF7;
             background-repeat: no-repeat;
         }
         
@@ -36,8 +53,8 @@
         }
         
         .reachOut {
-            margin-top: 60px;
             padding: 24px;
+            font-size: 55px !important;
         }
         
         .SocialM {
@@ -129,8 +146,17 @@
             border: solid black;
         }
         
+        .imageOrdi {
+            padding: 5px;
+        }
+        
+        .Darkwep {
+            margin-left: 3px;
+        }
+        
         .btn1:hover {
-            background-color: #bdc2e2a0;
+            background-color: #3C6CA8;
+            color: white;
         }
         
         .formWrap {
@@ -170,7 +196,7 @@
         }
         
         footer {
-            background-color: black;
+            background-color: #3C6CA8
         }
         
         header {
@@ -533,6 +559,12 @@
             select,
             textarea {
                 font-size: 16px
+            }
+        }
+        
+        @media screen and (max-width:468px) {
+            .DosSectionHome h1 {
+                margin-top: 110px;
             }
         }
         
@@ -1807,7 +1839,7 @@
         }
         
         .navlinks {
-            color: black;
+            color: white !important;
             display: flex;
             align-items: center;
             text-decoration: none;
