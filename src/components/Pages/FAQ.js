@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import { BrowserRouter, Route, Link, Router } from "react-router-dom";
-import Navbar from "../Navbar";
+import { Link } from "react-router-dom";
+
 
 
 
@@ -11,13 +11,19 @@ class FAQ extends Component {
       return( 
 
         <div>
-  <section className="SectionHome">
-  <div className="TitleName">
-  <h1>ok from FAQ</h1> 
-  <h3>ok ok ok  <br/> </h3>
-  </div>
+      <div className="headBackground">
+    
+    <section className="SectionHomeFaq">
+    
+    <div className="TitleNameFaq">
+        <img className="InProgressImg" src="img\InProgress.png" alt="" />
+    </div>
+    <div className="btnSectionHome"><Link to="/PreviousWork"><button class="btn1">Back to my work</button></Link></div>
+    
+    </section>
+    </div>
   
-  </section>
+
 <div> 
 <footer class="pt2 pb2">
         <div class="container align--center">
