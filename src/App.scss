@@ -1833,7 +1833,7 @@
         }
         
         .navbtn {
-            background: #15CDFC;
+            background: #5aa2fa;
             border-radius: 4px;
             padding: 10px 22px;
             color: black;
@@ -1842,6 +1842,8 @@
             cursor: pointer;
             transition: all 0.4s ease-in-out;
             margin-left: 155px;
+            font-weight: 700;
+            height: 88%;
             text-decoration: none !important;
             &:hover {
                 transition: all 0.4s ease-in-out;
